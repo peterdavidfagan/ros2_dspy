@@ -12,7 +12,7 @@
   <depend>backward_ros</depend>
   <depend>generate_parameter_library</depend>
 	
-  <exec_depend>dspy</exec_depend>
+  <exec_depend>dspy-ai</exec_depend>
   <exec_depend>onnx</exec_depend>	
   <exec_depend>onnxruntime</exec_depend>	
   <exec_depend>jaxonnxruntime</exec_depend>
