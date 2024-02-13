@@ -1,7 +1,7 @@
 ollama:
   ollama_model: {
     type: string,
-    default_value: "ollama2",
+    default_value: "llama2",
     description: "The model you wish to perform inference with.",
   }
 
