@@ -60,6 +60,7 @@ class OllamaInferenceNode(Node):
         # TODO: add feedback to action server
         pred = self.qa_predictor(question=goal_handle.request.question)
         self.logger.info(f'Answer: {pred.answer}')
+        goal_handle.succeed()
         result = QA.Result()
         result.answer = pred.answer
         return result
