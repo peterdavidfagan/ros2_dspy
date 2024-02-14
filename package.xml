@@ -11,11 +11,11 @@
 
   <depend>backward_ros</depend>
   <depend>generate_parameter_library</depend>
-	
-  <exec_depend>dspy-ai</exec_depend>
-  <exec_depend>onnx</exec_depend>	
-  <exec_depend>onnxruntime</exec_depend>	
-  <exec_depend>jaxonnxruntime</exec_depend>
+  <depend>dspy-ai</depend>
+  <depend>onnx</depend>	
+  <depend>onnxruntime</depend>	
+  <depend>jaxonnxruntime</depend>
+  <depend>ros2_dspy_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
