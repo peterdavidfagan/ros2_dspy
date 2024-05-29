@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'ros2_dspy'
+package_name = 'ros2_dspy_components'
 
 setup(
  name=package_name,

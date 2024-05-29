@@ -1,0 +1,12 @@
+# Request
+string question
+
+---
+
+# Result
+string answer
+
+---
+
+# Feedback
+string state
